@@ -1,0 +1,70 @@
+{
+  "version": "1.0",
+  "platform": "SEGA Saturn",
+  "source": {
+    "bytes": 402151193,
+    "sha256": "3d3291adeff6c472c84d12501b2dca4c8d3897a03212107391e4181188d8515f"
+  },
+  "patch": {
+    "path": "Graduation_S_Korean_v1.0.xdelta",
+    "bytes": 1247535,
+    "sha256": "d6dfa0c52c97ebb33dfc3de3a401d33a52d0324c427c919ff5d7766697d7cd85"
+  },
+  "tracks": [
+    {
+      "number": 1,
+      "bytes": 436768752,
+      "source_sha256": "57fdfedd22cd315dfc8d79d2b9752f2da7ba7f80ac309ad1989857a3e41e60e9",
+      "target_sha256": "931214ce852236450afda084a19ac21719d19f8943508c057d71dd86ec39f252"
+    },
+    {
+      "number": 2,
+      "bytes": 32285904,
+      "source_sha256": "9209253a9adbb4a501bc472bfe5225b66c42c024cb574d74196522269d372353",
+      "target_sha256": "9209253a9adbb4a501bc472bfe5225b66c42c024cb574d74196522269d372353"
+    },
+    {
+      "number": 3,
+      "bytes": 42691152,
+      "source_sha256": "f4e5cf8d76585900b5b342a26b93a7ca4cf4b1e5bb7caeca614fd01c41fc874c",
+      "target_sha256": "f4e5cf8d76585900b5b342a26b93a7ca4cf4b1e5bb7caeca614fd01c41fc874c"
+    },
+    {
+      "number": 4,
+      "bytes": 22226400,
+      "source_sha256": "00fc38753a7ad72d5692674eaf27a57dc8a81e41efa68174517f7908a5ee4d5d",
+      "target_sha256": "00fc38753a7ad72d5692674eaf27a57dc8a81e41efa68174517f7908a5ee4d5d"
+    },
+    {
+      "number": 5,
+      "bytes": 15701952,
+      "source_sha256": "3e1fe8328324d43a5c79afa85c2b5d30c72cd536f21c850b4d0d9632b2111928",
+      "target_sha256": "3e1fe8328324d43a5c79afa85c2b5d30c72cd536f21c850b4d0d9632b2111928"
+    },
+    {
+      "number": 6,
+      "bytes": 19935552,
+      "source_sha256": "b2fb6216650b8d610635fada62552bffd95a269f99ad7c319c5ee19af367d551",
+      "target_sha256": "b2fb6216650b8d610635fada62552bffd95a269f99ad7c319c5ee19af367d551"
+    },
+    {
+      "number": 7,
+      "bytes": 19756800,
+      "source_sha256": "cba42e9cbec33ac1167aa5136ee25a8a396e85b2aa92ef6798e8fdfee2cc1e72",
+      "target_sha256": "cba42e9cbec33ac1167aa5136ee25a8a396e85b2aa92ef6798e8fdfee2cc1e72"
+    },
+    {
+      "number": 8,
+      "bytes": 22052352,
+      "source_sha256": "b6ce8190ff354ad2ab31f32946fc2d04928a1b4a5ee7e91226ccbdbe7c2460ab",
+      "target_sha256": "b6ce8190ff354ad2ab31f32946fc2d04928a1b4a5ee7e91226ccbdbe7c2460ab"
+    },
+    {
+      "number": 9,
+      "bytes": 39160800,
+      "source_sha256": "9edabefe34392572f356c582a9c7cf9f66982934397a02a936bd3df4b1346c43",
+      "target_sha256": "9edabefe34392572f356c582a9c7cf9f66982934397a02a936bd3df4b1346c43"
+    }
+  ],
+  "cue": "FILE \"track01.bin\" BINARY\n  TRACK 01 MODE1/2352\n    INDEX 01 00:00:00\nFILE \"track02.bin\" BINARY\n  TRACK 02 AUDIO\n    INDEX 00 00:00:00\n    INDEX 01 00:02:00\nFILE \"track03.bin\" BINARY\n  TRACK 03 AUDIO\n    INDEX 00 00:00:00\n    INDEX 01 00:01:74\nFILE \"track04.bin\" BINARY\n  TRACK 04 AUDIO\n    INDEX 00 00:00:00\n    INDEX 01 00:01:74\nFILE \"track05.bin\" BINARY\n  TRACK 05 AUDIO\n    INDEX 00 00:00:00\n    INDEX 01 00:01:74\nFILE \"track06.bin\" BINARY\n  TRACK 06 AUDIO\n    INDEX 00 00:00:00\n    INDEX 01 00:01:74\nFILE \"track07.bin\" BINARY\n  TRACK 07 AUDIO\n    INDEX 00 00:00:00\n    INDEX 01 00:01:74\nFILE \"track08.bin\" BINARY\n  TRACK 08 AUDIO\n    INDEX 00 00:00:00\n    INDEX 01 00:01:74\nFILE \"track09.bin\" BINARY\n  TRACK 09 AUDIO\n    INDEX 00 00:00:00\n    INDEX 01 00:01:74\n"
+}
