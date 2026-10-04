@@ -37,7 +37,7 @@ py -3 apply_patch.py "D:\Games\Sotsugyou - Graduation S (Japan).chd" "D:\Games\G
 931214ce852236450afda084a19ac21719d19f8943508c057d71dd86ec39f252
 ```
 
-BIN/CUE 원본을 가진 경우 위 Track 1 해시가 정확히 같을 때만 xdelta를 직접 적용할 수 있습니다. 오디오 트랙과 CUE 구성은 원본 그대로 유지합니다.
+BIN/CUE 원본을 가진 경우 위 Track 1 해시가 정확히 같을 때만 xdelta를 직접 적용할 수 있습니다. 출력 BIN을 만든 뒤 CUE 사본의 첫 번째 FILE 항목을 새 BIN 파일명으로 바꾸고, 나머지 오디오 트랙과 INDEX 값은 원본 그대로 유지합니다.
 
 ```powershell
 .\xdelta3.exe -d -s "original-track1.bin" "Graduation_S_Korean_v1.0.xdelta" "korean-track1.bin"
